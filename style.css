@@ -4,16 +4,16 @@ body{
     font-family: "Lexend Deca";
     color: hsla(0, 0%, 100%, 0.75);
 }
+h1{
+    font-size: 0.75rem;
+}
 h2{
     font-family: "Big Shoulders Display";
     font-size: 2rem;
     color: hsl(0, 0%, 95%)
 }
 main{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%, -50%);
+    margin:10rem auto;
     display:flex;
     width: 60%;
     min-height: 25rem;
@@ -30,9 +30,7 @@ img{
     width: 5rem;
 }
 .container button{
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 5%;
+    margin-top: auto;
     font-family: "Lexend Deca";
     padding:0.7rem 1rem;
     border:none;
@@ -83,10 +81,8 @@ footer {
 @media screen and (max-width:700px) {
     main{
         flex-direction:column;
-        position: relative;
         min-height: fit-content;
-        top:0;
-        transform: translate(-50%, 0);
+        margin:auto;
     }
     .container{
         min-height: fit-content;
@@ -100,3 +96,11 @@ footer {
         bottom: 0;
       }
 }
+@media (max-height:700px){
+    footer {
+        padding-top:5rem;
+        position: relative;
+        bottom: 0;
+      }
+}
+
