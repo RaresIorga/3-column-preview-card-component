@@ -4,6 +4,9 @@ body{
     font-family: "Lexend Deca";
     color: hsla(0, 0%, 100%, 0.75);
 }
+h1{
+   color: hsl(0, 0%, 95%);
+}
 h2{
     font-family: "Big Shoulders Display";
     font-size: 2rem;
